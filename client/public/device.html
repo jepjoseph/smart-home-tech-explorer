@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Device Details | Smart Home Tech Explorer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <main class="container" id="main-content">
+      <article class="device-details">
+        <img id="device-image" class="device-detail-image" src="" alt="" />
+
+        <div>
+          <h2 id="device-name"></h2>
+
+          <p>
+            <strong>Type:</strong>
+            <span id="device-type"></span>
+          </p>
+
+          <p>
+            <strong>Manufacturer:</strong>
+            <span id="device-manufacturer"></span>
+          </p>
+
+          <p>
+            <strong>Connectivity:</strong>
+            <span id="device-connectivity"></span>
+          </p>
+
+          <p>
+            <strong>Operating Voltage:</strong>
+            <span id="device-voltage"></span>
+          </p>
+
+          <p>
+            <strong>Use Case:</strong>
+            <span id="device-use-case"></span>
+          </p>
+
+          <p>
+            <strong>Description:</strong>
+            <span id="device-description"></span>
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/device.js"></script>
+  </body>
+</html>

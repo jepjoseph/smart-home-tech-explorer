@@ -9,7 +9,7 @@ const deviceData = [
     useCase: "IoT monitoring, control, and automation",
     description:
       "A Wi-Fi and Bluetooth-enabled microcontroller commonly used to build connected embedded and IoT applications.",
-    image: "",
+    image: "/images/esp32.jpeg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const deviceData = [
       "Controlling systems that require many input and output connections",
     description:
       "A microcontroller board designed for projects that need a large number of digital and analog input and output connections.",
-    image: "",
+    image: "/images/arduino-mega.jpg",
   },
   {
     id: 3,
@@ -34,31 +34,31 @@ const deviceData = [
     useCase: "Smart home servers, gateways, dashboards, and automation",
     description:
       "A compact single-board computer capable of running an operating system and hosting software for smart home and IoT applications.",
-    image: "",
+    image: "/images/raspberry-pi.jpg",
   },
   {
     id: 4,
     name: "Smart Camera",
     type: "IoT Camera",
-    manufacturer: "Varies by model",
+    manufacturer: "Arlo",
     connectivity: "Wi-Fi, Ethernet",
     operatingVoltage: "Varies by model",
     useCase: "Remote video monitoring and home security",
     description:
       "A network-connected camera that can provide remote video monitoring and integrate with smart home security systems.",
-    image: "",
+    image: "/images/smart-camera.jpeg",
   },
   {
     id: 5,
     name: "Smart Plug",
     type: "Smart Power Device",
-    manufacturer: "Varies by model",
+    manufacturer: "Ring",
     connectivity: "Wi-Fi",
     operatingVoltage: "Varies by model and region",
     useCase: "Remote appliance control and home automation",
     description:
       "A connected power outlet adapter that allows compatible electrical devices to be controlled remotely or through automation rules.",
-    image: "",
+    image: "/images/smart-plug.jpeg",
   },
 ];
 

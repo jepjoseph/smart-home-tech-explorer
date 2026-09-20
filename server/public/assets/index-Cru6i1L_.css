@@ -1,0 +1,1 @@
+body{min-height:100vh}header{padding-top:2rem}#main-content{padding-bottom:3rem}.device-grid{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem;display:grid}.device-card{flex-direction:column;display:flex}.device-card a[role=button]{margin-top:auto}.device-image{object-fit:contain;width:100%;height:220px;margin-bottom:1rem}

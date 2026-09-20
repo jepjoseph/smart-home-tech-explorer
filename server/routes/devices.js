@@ -13,6 +13,16 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:deviceId", (req, res) => {
+  const deviceId = parseInt(req.params.deviceId);
+
+  const device = deviceData.find((device) => device.id === deviceId);
+
+  if (!device) {
+    return res
+      .status(404)
+      .sendFile(path.resolve(__dirname, "../public/404.html"));
+  }
+
   res.status(200).sendFile(path.resolve(__dirname, "../public/device.html"));
 });
 

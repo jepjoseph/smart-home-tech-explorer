@@ -9,3 +9,25 @@ header {
 #main-content {
   padding-bottom: 3rem;
 }
+
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.device-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.device-card a[role="button"] {
+  margin-top: auto;
+}
+.device-image {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
